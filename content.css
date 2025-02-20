@@ -1,0 +1,411 @@
+:root {
+    --icone: url(https://gamer-sans987.github.io/icon/dcLogo.png?=&format=webp&quality=lossless&width=57&height=57);
+    --glow: radial-gradient(circle, rgb(152, 132, 197) 0%, rgba(121, 9, 117, 0.253) 100%);
+    --notificacao: linear-gradient(-45deg, rgb(83, 15, 240) 0%, rgb(45, 20, 185) 25%, rgb(158, 21, 212) 100%) !important;
+    --gradient: linear-gradient(45deg, rgb(31, 6, 90) 0%, rgb(26, 9, 121) 25%, rgb(115, 6, 158) 100%);
+    --sombraCall: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.351) 25%)
+}
+
+div[aria-label="Mensagens diretas"] {
+    content: var(--icone)
+}
+
+div[aria-label="Mensagens diretas"]:hover {
+    background: var(--glow)
+}
+
+div[class^="numberBadge"], div[class^="badge"]:not(div[class^="badgesContainer"]):not( div[class^="badgesContainer"] > div) {
+    background: var(--gradient)
+}
+
+
+div[class^="controllButton"]>svg>foreignObject> div> button > div > div >{
+    background: var(--gradient) !important;
+    opacity: 80%;
+}
+
+div[class^="actionButtons"] > button,
+div[class^="actionButtons"] > div > button{
+    background: var(--gradient) !important;
+    opacity: 80%;
+}
+
+div[class^="slider"] > div:not([class^="track"]){
+    background: none;
+}
+
+div[class^="wrapper"] > div[class^="childWrapper"], 
+div[class^="iconBadge"],
+foreignObject[mask="url(#svg-mask-status-screenshare)"] > div, 
+div[class^="bar"]:not([class^="barInMultiLine"]),  
+div[class^="bar"]:not([bis_skin_checked="1"], [class^="bar"]), 
+div[class^="live"]
+{
+    background: var(--notificacao)
+}
+
+img[class^="avatar"] {
+    border-radius: 35px !important;
+}
+
+div[class*="speaking"] {
+    box-shadow: inset 0 0 0 2px rgb(0, 255, 136),
+    inset 0 0 0 2px rgb(0, 0, 0) !important;
+}
+
+/*todos*/
+div[class^="tileChild"] div[class^="background"] {
+    background:var(--sombraCall), var(--gradient);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Asriel*/
+div[data-selenium-video-tile="296803454964203521"] div[class^="background"] {
+    background:var(--sombraCall), url(https://pbs.twimg.com/media/GII9MHhWAAAcgvN?format=jpg&name=large) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Dust*/
+div[data-selenium-video-tile="563458959818620990"] div[class^="background"],
+div[data-selenium-video-tile="323072936766603264"] div[class^="background"],
+div[data-selenium-video-tile="1277890576137719863"] div[class^="background"]{
+background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/dust.png) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Pedro*/
+div[data-selenium-video-tile="920428694814732329"] div[class^="background"],
+div[data-selenium-video-tile="806491880862646282"] div[class^="background"] {
+    background: var(--sombraCall), /*url(https://gamer-sans987.github.io/icon/pedro.jpg?format=webp)*/ url(https://i.pinimg.com/originals/23/2e/1d/232e1d741664caf6068d793f4424f4e8.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Adriano*/
+div[data-selenium-video-tile="347495036667035648"] div[class^="background"],
+div[data-selenium-video-tile="1161132487062343751"] div[class^="background"] {
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/adriano.png?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Rafa*/
+div[data-selenium-video-tile="695439780338729011"] div[class^="background"] {
+    background: var(--sombraCall), url(https://d19p4plxg0u3gz.cloudfront.net/bb6dc1e8-925c-11eb-b28d-0242ac12000f/v/6f1b75b0-9d0b-11eb-b4b2-cedfb09875dd/1280x854-6f1badc8-9d0b-11eb-90ad-cedfb09875dd.jpeg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Myke*/
+div[data-selenium-video-tile="275044605697851393"] div[class^="background"] {
+    background: var(--sombraCall), url(https://static.wikia.nocookie.net/the-allusions/images/9/94/Hollow_purple_reference.webp/revision/latest?cb=20240113213359) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Jockie Music*/
+div[data-selenium-video-tile="411916947773587456"] div[class^="background"] {
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/jockie.png?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Music Bot*/
+div[data-selenium-video-tile="1073947023058931792"] div[class^="background"] {
+    background: var(--sombraCall), url(https://cdn.discordapp.com/banners/1073947023058931792/663d2fc455547e7eb65c0dddbd883fee.webp?size=1024&format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Gatão*/
+div[data-selenium-video-tile="1229944781438849084"] div[class^="background"] {
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.351) 45%), url(https://gamer-sans987.github.io/icon/gatao.png?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Leo*/
+div[data-selenium-video-tile="402959714268479498"] div[class^="background"] {
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/leozin.jpg?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Karol*/
+div[data-selenium-video-tile="939858167230267392"] div[class^="background"] {
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/karol.jpg?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Veyronik*/
+div[data-selenium-video-tile="299867405331464202"] div[class^="background"] {
+    /*background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/veyronik.webp) !important;*/
+    background: var(--sombraCall), url(https://images.alphacoders.com/132/1325237.jpeg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Matheusinho*/
+div[data-selenium-video-tile="845492580703010837"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images7.alphacoders.com/116/thumb-1920-1165938.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Akemi*/
+div[data-selenium-video-tile="1036708825048297554"] div[class^="background"]{
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/Akemi.jpg?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*cris*/
+div[data-selenium-video-tile="583708521942745098"] div[class^="background"]{
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/cris.gif?format=webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Raka*/
+div[data-selenium-video-tile="159836481030979584"] div[class^="background"]{
+    background: var(--sombraCall), url(https://i.ytimg.com/vi/-BE9GZAQOIE/maxresdefault.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Luiz*/
+div[data-selenium-video-tile="703258140967436378"] div[class^="background"] {
+    background:var(--sombraCall), url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_20.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Bardo*/
+div[data-selenium-video-tile="1024079824110751795"] div[class^="background"] {
+    background:var(--sombraCall), url(https://pbs.twimg.com/media/D9DBFO4UcAA-y8C?format=jpg&name=4096x4096) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*March*/
+div[data-selenium-video-tile="964909173382987836"] div[class^="background"] {
+    background:var(--sombraCall), url(https://a.storyblok.com/f/178900/1080x637/c3dd5d3f14/e23042e3a57a21c96a64fb45672c63361595606167_main.jpg) !important; 
+    /*background:var(--sombraCall), url(https://images2.minutemediacdn.com/image/upload/c_fill,w_752,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/clown-4-104309a9de96b5c3b380947359b31f69.jpg) !important; */
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Kabral*/
+div[data-selenium-video-tile="1261368738964307993"] div[class^="background"] {
+    background:var(--sombraCall), url(https://wallpapers-clan.com/wp-content/uploads/2024/02/bleach-ichigo-kurosaki-blue-desktop-wallpaper-preview.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Star*/
+div[data-selenium-video-tile="1120331188901519410"] div[class^="background"] {
+    background:var(--sombraCall), url(https://herofactory.com.br/wp-content/uploads/2023/09/diana-nguyen-all-for-the-game-resized.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Banguela*/
+div[data-selenium-video-tile="239123000438292481"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images2.alphacoders.com/477/thumb-1920-477684.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Nero (Azul)*/
+div[data-selenium-video-tile="945683386100514827"] div[class^="background"]{
+    background: var(--sombraCall), url(https://tm.ibxk.com.br/2015/02/25/25160011086855.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Matheus DRK*/
+div[data-selenium-video-tile="335205074177359882"] div[class^="background"]{
+    background: var(--sombraCall), url(https://i.pinimg.com/736x/ac/6b/3b/ac6b3bb36254743ac67c3a4a57cfbeaf.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Sandru*/
+div[data-selenium-video-tile="983093558456238131"] div[class^="background"]{
+    background: var(--sombraCall), url(https://i.pinimg.com/736x/a6/9b/de/a69bde9490f65d095ff9799b2ff0ae61.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Bob*/
+div[data-selenium-video-tile="875057282763874365"] div[class^="background"]{
+    background: var(--sombraCall), url(https://www.ardeaprints.com/p/172/golden-hamster-syrian-hamster-wheel-648132.jpg.webp);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Drustter*/
+div[data-selenium-video-tile="346809087285264394"] div[class^="background"]{
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/Drustter.jpg?format=webp); 
+    /* background:var(--sombraCall), url(https://images2.minutemediacdn.com/image/upload/c_fill,w_752,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/clown-4-104309a9de96b5c3b380947359b31f69.jpg) !important; */
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Paulo / Scarerow*/
+div[data-selenium-video-tile="395048304360292352"] div[class^="background"]{
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/paulo.jpg?format=webp);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Kauã / KuAl*/
+div[data-selenium-video-tile="662307880355102731"] div[class^="background"]{
+    background: var(--sombraCall), url(https://gamer-sans987.github.io/icon/kaua.jpg?format=webp);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Leyley*/
+div[data-selenium-video-tile="1045856066371596329"] div[class^="background"]{
+    background: var(--sombraCall), /*url(https://gamer-sans987.github.io/icon/leyley.png?format=webp)*/ url(https://i.pinimg.com/564x/c8/fc/eb/c8fcebe3e6eda83e1746eb38de9fd1bc.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Gojo*/
+div[data-selenium-video-tile="1269577704047640647"] div[class^="background"]{
+    background: var(--sombraCall), url(https://preview.redd.it/is-there-a-lore-reason-why-hollow-purple-canonically-only-v0-00e91ldu0v8c1.jpeg?auto=webp&s=273200c887ebb7e7de58084c0ba2af2343f99b31);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*VOID*/
+div[data-selenium-video-tile="1117155542994001990"] div[class^="background"]{
+    background: var(--sombraCall), url(https://c4.wallpaperflare.com/wallpaper/215/341/69/hatsune-miku-sadness-anime-girl-in-rain-hatsune-miku-wallpaper-preview.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Lure*/
+div[data-selenium-video-tile="333991549950099467"] div[class^="background"]{
+    background: var(--sombraCall), url(https://cdn.discordapp.com/banners/333991549950099467/a_f944940db6d214dd285f65a16a37ad29.gif?size=1024);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Nico*/
+div[data-selenium-video-tile="1234884364442013866"] div[class^="background"]{
+    background: var(--sombraCall), url(https://cdnb.artstation.com/p/assets/images/images/015/656/385/large/phillip-smith-asset.jpg?1549132146);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/*Kiki*/
+div[data-selenium-video-tile="1266252648340783197"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images3.alphacoders.com/133/1339216.png);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Pedrin */
+div[data-selenium-video-tile="477805639545126923"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d34613d0-7f17-4a10-b434-2f4f75922d65/df3ysah-3dc02dcb-e814-4b7e-af74-c95f850caa21.png/v1/fill/w_1280,h_720,q_80,strp/chibi_sun_and_moon_wallpaper_by_pixelflaresden_df3ysah-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZDM0NjEzZDAtN2YxNy00YTEwLWI0MzQtMmY0Zjc1OTIyZDY1XC9kZjN5c2FoLTNkYzAyZGNiLWU4MTQtNGI3ZS1hZjc0LWM5NWY4NTBjYWEyMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Q_cQMDyIaYzyT-Iw4kWsSOfl7xqMzB18GNCGRmS0SfA);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Little Suxi */
+div[data-selenium-video-tile="771346776213028884"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images5.alphacoders.com/131/1310206.png);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Seven */
+div[data-selenium-video-tile="889830168691089428"] div[class^="background"]{
+    background: var(--sombraCall), url(https://pbs.twimg.com/media/FqzW8rMWwAAi2ZR.jpg:large);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Kaleby */
+div[data-selenium-video-tile="325015192918556683"] div[class^="background"]{
+    background: var(--sombraCall), url(https://amp.nbc.com/sites/nbcblog/files/styles/scale_862/public/2024/02/pktv_bknn_670813_s05_tv_bni05_i3515_0076_00049026.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Wave Music (Bot) */
+div[data-selenium-video-tile="1190991820637868042"] div[class^="background"]{
+    background: var(--sombraCall), url(https://cdn.discordapp.com/banners/1190991820637868042/c091d0af6783527c7b06002ee496477f.webp?size=1024&format=webp);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* ibelis */
+div[data-selenium-video-tile="688661884341190677"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images3.alphacoders.com/132/1327135.jpeg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Pupinha */
+div[data-selenium-video-tile="412235495435927552"] div[class^="background"]{
+    background: var(--sombraCall), url(https://i.pinimg.com/originals/21/de/d8/21ded89beb984272c19fc28f106ba4b4.png);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Yakumo */
+div[data-selenium-video-tile="1247042003242450944"] div[class^="background"]{
+    background: var(--sombraCall), url(https://media.indiedb.com/images/downloads/1/44/43869/43.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* DJ */
+div[data-selenium-video-tile="328180639377653762"] div[class^="background"]{
+    background: var(--sombraCall), url(https://c4.wallpaperflare.com/wallpaper/981/478/406/teemo-league-of-legends-league-of-legends-spirit-blossom-hd-wallpaper-preview.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Psy Raver */
+div[data-selenium-video-tile="777225922557378610"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images7.memedroid.com/images/UPLOADED108/54770f2c2a50b.jpeg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Samuel */
+div[data-selenium-video-tile="699392289067499531"] div[class^="background"]{
+    background: var(--sombraCall), url(https://www.lolvvv.com/_next/image?url=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FAmumu_5.jpg&w=1200&q=75);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Pingu */
+div[data-selenium-video-tile="498512306741837854"] div[class^="background"]{
+    background: var(--sombraCall), url(https://images.kinguin.net/g/carousel-main-mobile/media/category/g/w/gww3f351w72m7pbcflu3sdrb_1605618677.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Kyri */
+div[data-selenium-video-tile="183339524787666945"] div[class^="background"]{
+    background: var(--sombraCall), url(https://files.tecnoblog.net/wp-content/uploads/2024/09/exelon_three_mile_island_nuclear_generating_station.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Ricardo */
+div[data-selenium-video-tile="425723281899913217"] div[class^="background"]{
+    background: var(--sombraCall), url(https://c4.wallpaperflare.com/wallpaper/274/602/475/pokemon-pichu-pokemon-pikachu-raichu-pokemon-wallpaper-preview.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
