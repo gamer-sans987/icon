@@ -409,3 +409,10 @@ div[data-selenium-video-tile="425723281899913217"] div[class^="background"]{
     background-position: center !important;
     background-size: cover !important;
 }
+
+/* Ste */
+div[data-selenium-video-tile="830490112202506311"] div[class^="background"]{
+    background: var(--sombraCall), url(https://wallpapers.com/images/hd/cute-fox-pictures-gzh84hywk2h3uipi.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+}
